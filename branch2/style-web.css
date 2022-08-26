@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+@media (min-device-width:1506px) and (max-device-width:3000px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 80vh 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 6vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 6vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.4vh;
+    }
+
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+
+@media (min-device-width:1200px) and (max-device-width:1505px)/*WEB2*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body,:visited{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 95vh 110vh;
+        background-position: center;
+        margin: 0vh 48vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 6vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 2vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.4vh;
+    }
+
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+
+@media (min-device-width:1001px) and (max-device-width:1199px) /*Web3*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    body,:visited{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 100vh 115vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 70vh;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 4vh 7vh;
+        padding: 6vh 5vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+    
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 0.5vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.4vh;
+    }
+    
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+    
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+    
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+    
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+
+@media (min-device-width:416px) and (max-device-width:1000px) /*Tabet*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    body,:visited{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 100vh 115vh;
+        background-position: center;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 4vh 7vh;
+        padding: 6vh 5vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+    
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 0.5vh;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.4vh;
+    }
+    
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+    
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+    
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+    
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+
+@media (min-device-width:301px) and (max-device-width:415px) /*Mobile*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body,:visited{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 70vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 65vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 5vh;
+        padding: 5vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 6vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 2vh;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+
+@media (max-device-width:300px) /*Mobile2*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body,:visited{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 60vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 5vh;
+        padding: 5vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-section1{
+        font-style: italic;
+        font-weight: 100;
+        font-size: 6vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .main-section1-espaco{
+        color: #ca8e1e;
+    }
+
+    .main-convite{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        padding: 2vh;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .main-section2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vh;
+        font-size: 5vh;
+        font-weight: 100;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-section2-data-meio{
+        color: #303030;
+        padding: 0 1vh;
+        border-left: 3px solid #ca8e1e;
+        border-right: 3px solid #ca8e1e;
+    }
+
+    .main-hora{
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .links,:visited{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        box-sizing: content-box;
+        font-size: 4vh;
+        font-weight: 100;
+        color: #303030;
+    }
+
+    .links-local,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+
+    .links-dress-code,:visited{
+        border-bottom: 3px solid #ca8e1e;
+    }
+}
+

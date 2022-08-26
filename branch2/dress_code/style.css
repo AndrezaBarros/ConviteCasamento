@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.borda-externa{
+    display: flex;
+    background-color: #fefefe;
+    background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+    background-size: 120vh 110vh;
+    background-position: center;
+    margin: 0vh 48vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin: 7vh 7vh;
+    padding: 6vh 5vh;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.main-titulo{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 7vh;
+    color: #303030;
+    text-align: center;
+    padding: 0 6vh;
+    margin-bottom: 6vh;
+}
+
+.main-bloco1-titulo{
+    flex-direction: row;
+    text-align: center;
+    font-size: 4.5vh;
+    color: #ca8e1e;
+    margin-bottom: 1vh;
+}
+
+.main-bloco1-conteudo{
+    padding: 0 3vh;
+    text-align: center;
+    color: #303030;
+    font-weight: 400;
+    font-size: 3.5vh;
+    margin-bottom: 8vh;
+}
+
+.main-bloco2-titulo{
+    flex-direction: row;
+    text-align: center;
+    font-size: 4.5vh;
+    color: #ca8e1e;
+    margin-bottom: 1vh;
+}
+
+.main-bloco2-conteudo{
+    padding: 0 3vh;
+    text-align: center;
+    color: #303030;
+    font-weight: 400;
+    font-size: 3.5vh;
+}
