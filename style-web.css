@@ -715,8 +715,9 @@
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 78vh 112vh;
+        background-size: 66vh 112vh;
         background-position: center;
+        height: 100vh;
     }
     
     .main{
@@ -724,7 +725,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 6vh 7vh;
-        padding: 6vh 1.8vh;
+        padding: 3vh 1vh;
         font-family: 'Cormorant Garamond', serif;
     }
     
@@ -734,7 +735,7 @@
         font-size: 5.5vh;
         color: #303030;
         text-align: center;
-        margin-bottom: 5vh;
+        margin-bottom: 4vh;
     }
     
     .main-section1-espaco{
@@ -746,7 +747,7 @@
         font-weight: 400;
         font-size: 3.4vh;
         text-align: center;
-        margin-bottom: 5vh;
+        margin-bottom: 4vh;
     }
     
     .main-section2{
@@ -771,7 +772,7 @@
         font-weight: 400;
         font-size: 3vh;
         text-align: center;
-        margin-bottom: 5vh;
+        margin-bottom: 4vh;
     }
     
     .links,:visited,:hover{
@@ -1014,7 +1015,7 @@
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 68vh 112vh;
+        background-size: 74vh 112vh;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -1025,7 +1026,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 5vh;
-        padding: 7vh 0;
+        padding: 5vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -1045,7 +1046,7 @@
     .main-convite{
         color: #303030;
         font-weight: 400;
-        font-size: 3vh;
+        font-size: 3.4vh;
         padding: 2vh;
         text-align: center;
         margin-bottom: 3vh;
@@ -1056,7 +1057,7 @@
         justify-content: center;
         flex-direction: row;
         gap: 2vh;
-        font-size: 5vh;
+        font-size: 4.4vh;
         font-weight: 100;
         margin-bottom: 0.5vh;
     }
@@ -1125,7 +1126,7 @@
         flex-direction: column;
         height: 50vh;
         margin: 5vh;
-        padding: 8vh 1vh;
+        padding: 5vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 

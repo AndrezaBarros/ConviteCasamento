@@ -848,7 +848,8 @@
         background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
         background-size: 66vh 112vh;
         background-position: center;
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 
     .main{
@@ -856,7 +857,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 6vh 7vh;
-        padding: 5vh 0;
+        padding: 3vh 1vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -866,7 +867,7 @@
         font-size: 5.6vh;
         color: #303030;
         text-align: center;
-        margin-bottom: 5vh;
+        margin-bottom: 4vh;
     }
 
     .main-bloco1-titulo{
@@ -882,7 +883,7 @@
         color: #303030;
         font-weight: 400;
         font-size: 3vh;
-        margin-bottom: 5vh;
+        margin-bottom: 4vh;
     }
 
     .main-bloco2-titulo{
@@ -1070,7 +1071,7 @@
         display: flex;
         background-color: #fefefe;
         background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 68vh 112vh;
+        background-size: 76vh 112vh;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
