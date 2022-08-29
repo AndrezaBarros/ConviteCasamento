@@ -208,7 +208,7 @@
         text-decoration: none;
     }
 
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
@@ -230,7 +230,7 @@
         flex-direction: column;
         height: 75vh;
         margin: 5vh;
-        padding: 4vh;
+        padding: 5vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -251,7 +251,6 @@
         color: #303030;
         font-weight: 400;
         font-size: 3.5vh;
-        padding: 1vh;
         text-align: center;
         margin-bottom: 3vh;
     }
@@ -308,12 +307,11 @@
         text-decoration: none;
     }
     
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 100vh;
     }
     
     .borda-externa{
@@ -324,6 +322,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width: 60vh;
+        height: 100vh;
     }
     
     .main{
@@ -352,7 +351,6 @@
         color: #303030;
         font-weight: 400;
         font-size: 3.5vh;
-        padding: 0.5vh;
         text-align: center;
         margin-bottom: 4vh;
     }
@@ -409,12 +407,11 @@
         text-decoration: none;
     }
     
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 100vh;
     }
     
     .borda-externa{
@@ -423,6 +420,7 @@
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
         background-size: 100vh 112vh;
         background-position: center;
+        height: 100vh;
     }
     
     .main{
@@ -507,12 +505,11 @@
         text-decoration: none;
     }
     
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 100vh;
     }
     
     .borda-externa{
@@ -521,6 +518,7 @@
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
         background-size: 105vh 110vh;
         background-position: center;
+        height: 100vh;
     }
     
     .main{
@@ -605,12 +603,11 @@
         text-decoration: none;
     }
     
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 100vh;
     }
     
     .borda-externa{
@@ -620,6 +617,7 @@
         background-size: 107vh 110vh;
         background-position: center;
         background-repeat: no-repeat;
+        height: 100vh;
     }
     
     .main{
@@ -649,7 +647,6 @@
         font-weight: 400;
         font-size: 4vh;
         text-align: center;
-        padding: 0 3vh;
         margin-bottom: 4vh;
     }
     
@@ -705,19 +702,18 @@
         text-decoration: none;
     }
     
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 100vh;
     }
     
     .borda-externa{
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 86vh 112vh;
+        background-size: 78vh 112vh;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -728,7 +724,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 6vh 7vh;
-        padding: 5vh 2vh;
+        padding: 5vh 1vh;
         font-family: 'Cormorant Garamond', serif;
     }
     
@@ -750,7 +746,6 @@
         font-weight: 400;
         font-size: 3.4vh;
         text-align: center;
-        padding: 0 3vh;
         margin-bottom: 4vh;
     }
     
@@ -806,19 +801,18 @@
         text-decoration: none;
     }
 
-    body,:visited{
+    body{
         display: flex;
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 70vh;
     }
 
     .borda-externa{
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 78vh 114vh;
+        background-size: 70vh 114vh;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -911,14 +905,13 @@
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 70vh;
     }
 
     .borda-externa{
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 78vh 110vh;
+        background-size: 74vh 110vh;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -929,7 +922,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 5vh;
-        padding: 6vh 0;
+        padding: 6vh 4vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -939,7 +932,7 @@
         font-size: 5.8vh;
         color: #303030;
         text-align: center;
-        margin-bottom: 1vh;
+        margin-bottom: 4vh;
     }
 
     .main-section1-espaco{
@@ -950,9 +943,8 @@
         color: #303030;
         font-weight: 400;
         font-size: 3.4vh;
-        padding: 4vh;
         text-align: center;
-        margin-bottom: 2vh;
+        margin-bottom: 4vh;
     }
 
     .main-section2{
@@ -1012,7 +1004,6 @@
         flex-direction: row;
         background-color: black;
         justify-content: space-around;
-        height: 70vh;
     }
 
     .borda-externa{
@@ -1030,7 +1021,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 5vh;
-        padding: 2vh 2vh;
+        padding: 7vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -1051,7 +1042,6 @@
         color: #303030;
         font-weight: 400;
         font-size: 3.4vh;
-        padding: 2vh;
         text-align: center;
         margin-bottom: 3vh;
     }
@@ -1086,7 +1076,6 @@
         flex-direction: column;
         align-items: center;
         gap: 2vh;
-        box-sizing: content-box;
         font-size: 4vh;
         font-weight: 100;
         color: #303030;
@@ -1130,7 +1119,7 @@
         flex-direction: column;
         height: 50vh;
         margin: 5vh;
-        padding: 2vh 2vh;
+        padding: 6vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
