@@ -715,7 +715,7 @@
         display: flex;
         background-color: #fefefe;
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-        background-size: 66vh 112vh;
+        background-size: 78vh 112vh;
         background-position: center;
     }
     
@@ -724,7 +724,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 6vh 7vh;
-        padding: 6vh 0;
+        padding: 6vh 1.8vh;
         font-family: 'Cormorant Garamond', serif;
     }
     
@@ -744,7 +744,7 @@
     .main-convite{
         color: #303030;
         font-weight: 400;
-        font-size: 3vh;
+        font-size: 3.4vh;
         text-align: center;
         margin-bottom: 5vh;
     }
@@ -774,7 +774,7 @@
         margin-bottom: 5vh;
     }
     
-    .links,:visited{
+    .links,:visited,:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
