@@ -1,75 +1,1201 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+@media (min-device-width:2501px) and (max-device-width:2700px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 140vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+        width: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 8vh 9vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+    }
 }
 
-body{
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    justify-content: space-around;
+@media (min-device-width:2354px) and (max-device-width:2500px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 140vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+        width: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 8vh 9vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+    }
 }
 
-.borda-externa{
-    display: flex;
-    background-color: #fefefe;
-    background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
-    background-size: 120vh 110vh;
-    background-position: center;
-    margin: 0vh 48vh;
+@media (min-device-width:2271px) and (max-device-width:2353px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 124vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+        width: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 4vh 7.4vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+    }
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
-    margin: 7vh 7vh;
-    padding: 6vh 5vh;
-    font-family: 'Cormorant Garamond', serif;
+@media (min-device-width:2191px) and (max-device-width:2270px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 114vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+        width: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 4vh 6vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 4vh;
+    }
 }
 
-.main-titulo{
-    font-style: italic;
-    font-weight: 200;
-    font-size: 7vh;
-    color: #303030;
-    text-align: center;
-    padding: 0 6vh;
-    margin-bottom: 6vh;
+@media (min-device-width:2101px) and (max-device-width:2190px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 108vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+        width: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 5vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
 }
 
-.main-bloco1-titulo{
-    flex-direction: row;
-    text-align: center;
-    font-size: 4.5vh;
-    color: #ca8e1e;
-    margin-bottom: 1vh;
+@media (min-device-width:1506px) and (max-device-width:2100px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 90vh 113vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 40vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 6vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 8vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
 }
 
-.main-bloco1-conteudo{
-    padding: 0 3vh;
-    text-align: center;
-    color: #303030;
-    font-weight: 400;
-    font-size: 3.5vh;
-    margin-bottom: 8vh;
+@media (min-device-width:1200px) and (max-device-width:1505px)/*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 96vh 112vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0vh 46vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 5vh;
+        padding: 4vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
 }
 
-.main-bloco2-titulo{
-    flex-direction: row;
-    text-align: center;
-    font-size: 4.5vh;
-    color: #ca8e1e;
-    margin-bottom: 1vh;
+@media (min-device-width:1001px) and (max-device-width:1199px) /*WEB*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 90vh 112vh;
+        background-position: center;
+        margin: 0vh 48vh;
+        width: 60vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        margin: 7vh 7vh;
+        padding: 3vh 2vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 0.5vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
 }
 
-.main-bloco2-conteudo{
-    padding: 0 3vh;
-    text-align: center;
-    color: #303030;
-    font-weight: 400;
-    font-size: 3.5vh;
+@media (min-device-width:820px) and (max-device-width:1000px) /*Tabet*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 100vh 112vh;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 6vh 7vh;
+        padding: 5vh 1.6vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 6vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
+}
+
+@media (min-device-width:761px) and (max-device-width:819px) /*Tabet*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 105vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 6vh 7vh;
+        padding: 5vh 4.8vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size:6.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
+}
+
+@media (min-device-width:531px) and (max-device-width:760px) /*Tabet*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 107vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 6vh 7vh;
+        padding: 5vh 3.8vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.5vh;
+    }
+}
+
+@media (min-device-width:414px) and (max-device-width:530px) /*Tabet*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 66vh 112vh;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 6vh 7vh;
+        padding: 5vh 0;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 5.6vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.2vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.2vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+    }
+}
+
+@media (min-device-width:390px) and (max-device-width:413px) /*Mobile*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 66vh 114vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 5vh;
+        padding: 4vh 2vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 5.4vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.4vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.2vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.2vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.2vh;
+    }
+}
+
+@media (min-device-width:375px) and (max-device-width:389px) /*Mobile*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 78vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 5vh;
+        padding: 6vh 2.8vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 5.8vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.2vh;
+        margin-bottom: 6vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.5vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3.2vh;
+    }
+}
+
+@media (min-device-width:301px) and (max-device-width:374px) /*Mobile*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 68vh 112vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 5vh;
+        padding: 7vh 2vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 5.7vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.4vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4.4vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+    }
+}
+
+@media (max-device-width:300px) /*Mobile*/{
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-around;
+    }
+
+    .borda-externa{
+        display: flex;
+        background-color: #fefefe;
+        background-image: url(../possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
+        background-size: 60vh 110vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        margin: 5vh;
+        padding: 5vh 2vh;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-titulo{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 5.2vh;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+
+    .main-bloco1-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco1-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+        margin-bottom: 5vh;
+    }
+
+    .main-bloco2-titulo{
+        flex-direction: row;
+        text-align: center;
+        font-size: 4vh;
+        color: #ca8e1e;
+        margin-bottom: 1vh;
+    }
+
+    .main-bloco2-conteudo{
+        text-align: center;
+        color: #303030;
+        font-weight: 400;
+        font-size: 3vh;
+    }
 }
