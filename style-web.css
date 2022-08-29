@@ -619,6 +619,7 @@
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
         background-size: 107vh 110vh;
         background-position: center;
+        background-repeat: no-repeat;
     }
     
     .main{
@@ -648,6 +649,7 @@
         font-weight: 400;
         font-size: 4vh;
         text-align: center;
+        padding: 0 3vh;
         margin-bottom: 4vh;
     }
     
@@ -717,6 +719,7 @@
         background-image: url(./possiveis_imagen/—Pngtree—golden\ border\ warm\ color\ frame_5845628.png);
         background-size: 86vh 112vh;
         background-position: center;
+        background-repeat: no-repeat;
         height: 100vh;
     }
     
@@ -1027,7 +1030,7 @@
         flex-direction: column;
         height: 70vh;
         margin: 5vh;
-        padding: 5vh 2vh;
+        padding: 2vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
@@ -1127,7 +1130,7 @@
         flex-direction: column;
         height: 50vh;
         margin: 5vh;
-        padding: 5vh 2vh;
+        padding: 2vh 2vh;
         font-family: 'Cormorant Garamond', serif;
     }
 
